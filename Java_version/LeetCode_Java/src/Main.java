@@ -3,11 +3,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {2, 8, 7};
-        int extra = 1;
-        L1431 sol = new L1431();
-        List<Boolean> result = new ArrayList<>();
-        result = sol.kidsWithCandies(arr, extra);
-        System.out.println(result);
+        L605 sol = new L605();
+        int[] flowerbed = {1,0,1,0,0,0,0,1,0};
+        int n = 2;
+        System.out.println(sol.canPlaceFlowers(flowerbed, n));
     }
 }

@@ -14,7 +14,7 @@ public:
         for (int candy : candies){
             result.push_back(candy + extraCandies >= maxCandy);
         }
-        return result
+        return result;
     }
 private:
     int max(int t, vector<int> candies){
@@ -28,8 +28,3 @@ private:
     }
 };
 
-int main(){
-
-    Solution sol;
-    sol.kidsWithCandies()
-}

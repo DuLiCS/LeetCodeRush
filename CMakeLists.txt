@@ -4,5 +4,4 @@ project(LeetCodeRush)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(LeetCodeRush
-        1071.cpp
-        1431.cpp)
+        605.cpp)
