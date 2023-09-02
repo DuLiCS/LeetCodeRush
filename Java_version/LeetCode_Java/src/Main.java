@@ -3,9 +3,10 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-    L345 sol = new L345();
-    String s = "leetcode";
-    System.out.println(sol.reverseVowels(s));
-    System.out.println(sol.reverseVowels_stack(s));
+        L27 sol = new L27();
+        int[] nums = {3, 2, 2, 3};
+        int val = 2;
+        System.out.println(sol.removeElement(nums, val));
+
     }
 }
