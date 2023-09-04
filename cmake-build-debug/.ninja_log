@@ -1,6 +1,6 @@
 # ninja log v5
 5	341	1693452300255987197	CMakeFiles/LeetCodeRush.dir/605.cpp.o	b4d5cac6d156c813
-0	38	1693735387548863681	build.ninja	a9bb40ae4dc5bdb1
+0	38	1693822899197234233	build.ninja	a9bb40ae4dc5bdb1
 3	292	1693362493904104512	CMakeFiles/LeetCodeRush.dir/1071.cpp.o	d1da1dce4672b30d
 3	248	1693362525086753789	CMakeFiles/LeetCodeRush.dir/1431.cpp.o	a0e214e05f089caa
 329	442	1693623794574332656	LeetCodeRush	ab161bf6f1b402d1

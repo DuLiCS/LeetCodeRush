@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(LeetCodeRush
         27.cpp
-        26.cpp)
+        26.cpp
+        80.cpp)
