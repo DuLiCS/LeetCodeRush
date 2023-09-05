@@ -3,9 +3,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        L26 sol = new L26();
-        int[] nums = {0,0,1,1,1,2,2,3,3,4};
-        System.out.println(sol.removeDuplicates(nums));
-
+        L169 sol = new L169();
+        int[] nums = {1, 2, 4, 2, 3, 2, 2};
+        System.out.println(sol.majorityElement(nums));
     }
 }
