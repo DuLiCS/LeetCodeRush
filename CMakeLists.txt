@@ -10,4 +10,5 @@ add_executable(LeetCodeRush
         L168.cpp
         L189.cpp
         121.cpp
-        122.cpp)
+        122.cpp
+        55.cpp)
