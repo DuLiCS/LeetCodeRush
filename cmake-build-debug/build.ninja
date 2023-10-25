@@ -61,6 +61,12 @@ build CMakeFiles/LeetCodeRush.dir/L380.cpp.o: CXX_COMPILER__LeetCodeRush_unscann
   OBJECT_DIR = CMakeFiles/LeetCodeRush.dir
   OBJECT_FILE_DIR = CMakeFiles/LeetCodeRush.dir
 
+build CMakeFiles/LeetCodeRush.dir/238.cpp.o: CXX_COMPILER__LeetCodeRush_unscanned_Debug /Users/duli/CS/Project/LeetCodeRush/238.cpp || cmake_object_order_depends_target_LeetCodeRush
+  DEP_FILE = CMakeFiles/LeetCodeRush.dir/238.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/LeetCodeRush.dir
+  OBJECT_FILE_DIR = CMakeFiles/LeetCodeRush.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LeetCodeRush
@@ -69,7 +75,7 @@ build CMakeFiles/LeetCodeRush.dir/L380.cpp.o: CXX_COMPILER__LeetCodeRush_unscann
 #############################################
 # Link the executable LeetCodeRush
 
-build LeetCodeRush: CXX_EXECUTABLE_LINKER__LeetCodeRush_Debug CMakeFiles/LeetCodeRush.dir/274.cpp.o CMakeFiles/LeetCodeRush.dir/L380.cpp.o
+build LeetCodeRush: CXX_EXECUTABLE_LINKER__LeetCodeRush_Debug CMakeFiles/LeetCodeRush.dir/274.cpp.o CMakeFiles/LeetCodeRush.dir/L380.cpp.o CMakeFiles/LeetCodeRush.dir/238.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/LeetCodeRush.dir
   POST_BUILD = :
